@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Website made for Children.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="keywords" content="children, child, web site, computing">
+    <meta name="author" content="Szymon Janusz">
+
+    <!-- Page Title -->
+    <title>Children for Web | Games</title>
+
+    <!-- Changing Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon-16x16.png">
+    <link rel="manifest" href="./img/icons/site.webmanifest">
+    <link rel="mask-icon" href="./img/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./img/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./img/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Favicon source: https://fontawesome.com/icons/desktop?style=solid -->
+    <!-- Favicon License: https://fontawesome.com/license -->
+    <!-- Courtesy of Font Awesome, at https://fontawesome.com -->
+    <!-- Icons generated automatically using https://realfavicongenerator.net/ -->
+
+    <!-- Using Google "Open Sans" Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- Using Font Awesome - Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Using jQuery -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+    <!-- Own Styles Sheet -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+
+          <div class="logo">
+            LOGO
+          </div>
+
+          <div class="menu">
+            <ul>
+              <li><a class="standout" href="index.html">Home</a></li>
+              <li><a class="standout" href="about.html">About</a></li>
+              <li><a class="standout" href="contact.html">Contact</a></li>
+              <li><a class="active" href="games.html">Games</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      
+      <div class="content">
+
+        <!-- Main Text Paragraphs -->
+        <div class="games-main-paragraph">
+          <p>Children enjoy playing games. They provide a lot of learning opportunities.</p>
+
+          <p>Try out the games below!</p>
+        </div>
+
+        </div>
+        <div class="iframe-container">
+          <div class="games-video-one">
+            <iframe src="https://www.youtube.com/embed/RmbFJq2jADY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <!-- Can Implement LightBot Here -->
+          <!-- <embed src="https://s3.amazonaws.com/lightbot/lightbot-codehour.swf" wmode="window" width="960" height="640" allowfullscreen="true"> -->
+
+          <!-- <div class="games-video-two">
+            <iframe src="https://www.youtube.com/embed/P2Fc0Aj_u58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div> -->
+
+          <div class="scratch-game-one">
+            <!-- Can Finish This -->
+            <!-- This can be used to import scratch games -->
+           <!-- <iframe src="https://jamesbmadden.github.io/scratch-silicon/#287075438/" allowFullscreen></iframe>
+            <script src='https://sulfurous.aau.at/js/embed.js?id=287075438&resolution-x=480&resolution-y=360&auto-start=true&light-content=false'></script> -->
+            <!-- <iframe allowtransparency=“true” width=“485” height=“402” src=“https://jamesbmadden.github.io/scratch-silicon/287075438/” frameborder=“0” allowfullscreen></iframe> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>Szymon Janusz &copy; 2019</footer>
+
+    <!-- JavaScript responsible for animated navbar when scrolling -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".menu-icon").on("click", function() {
+          $("nav ul").toggleClass("showing");
+        });
+      });
+
+      $(window).on("scroll", function() {
+        if($(window).scrollTop()) {
+          $('nav').addClass('black');
+        }
+
+        else {
+          $('nav').removeClass('black');
+        }
+      })
+    </script>
+  </body>
+</html>

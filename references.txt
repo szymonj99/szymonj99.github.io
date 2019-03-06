@@ -1,0 +1,12 @@
+Background image: https://sfwallpaper.com/categories/simple-background.html
+Bootstrap
+jQuery
+Popper.js
+React js
+Font Awesome
+Computer Image: https://en.wikipedia.org/wiki/File:Gnome-computer.svg
+Color schemes: https://visme.co/blog/website-color-schemes/
+Computing showcase image: https://www.cityofglasgowcollege.ac.uk/courses/nq-computing-2019-08-26
+More color schemes: https://www.canva.com/learn/website-color-schemes/
+Page Layout Example: https://www.youtube.com/watch?v=LOWjWRy_Kks
+Bootstrap CDN for Font Awesome: https://www.bootstrapcdn.com/fontawesome/
