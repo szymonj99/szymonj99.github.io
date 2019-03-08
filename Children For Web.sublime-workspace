@@ -75,7 +75,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4632,
+				"buffer_size": 4961,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -84,7 +84,7 @@
 			"file": "games.html",
 			"settings":
 			{
-				"buffer_size": 5019,
+				"buffer_size": 5348,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -159,7 +159,7 @@
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -193,7 +193,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -202,15 +202,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4632,
+						"buffer_size": 4961,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4213,
-								4600
+								743,
+								743
 							]
 						],
 						"settings":
@@ -220,10 +220,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1431.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -232,15 +232,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5019,
+						"buffer_size": 5348,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4912,
-								4912
+								1240,
+								1240
 							]
 						],
 						"settings":
@@ -250,10 +250,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1620.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -280,10 +280,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2487.0,
+						"translation.y": 801.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

@@ -1,0 +1,4 @@
+Add Lightbot to games tab.
+Add Slick Slider showing YouTube content on games tab.
+Change index text to be more meaningful.
+Sort CSS file by global, class, and ID.
