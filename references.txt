@@ -11,3 +11,6 @@ More color schemes: https://www.canva.com/learn/website-color-schemes/
 Page Layout Example: https://www.youtube.com/watch?v=LOWjWRy_Kks
 Bootstrap CDN for Font Awesome: https://www.bootstrapcdn.com/fontawesome/
 Slick Slider JS - https://kenwheeler.github.io/slick/
+Subresource Integrity Hash Generator - https://www.srihash.org/
+Linking JavaScript files - https://www.w3schools.com/tags/att_script_src.asp
+Generating Integrity Hash for local files - https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity

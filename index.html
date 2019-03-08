@@ -27,25 +27,40 @@
     <!-- Icons generated automatically using https://realfavicongenerator.net/ -->
 
     <!-- Using Google "Open Sans" Font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://fonts.googleapis.com/css?family=Open+Sans"
+    integrity="sha256=TtDqhoVTp+miIemIKRpNKvcNtnJyvgIX6F8Jfpeqhy8="
+    crossorigin="anonymous">
 
     <!-- Using Slick Slider JS - CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    integrity="sha384-MUdXdzn1OB/0zkr4yGLnCqZ/n9ut5N7Ifes9RP2d5xKsTtcPiuiwthWczWuiqFOn"
+    crossorigin="anonymous"/>
+
+    <!-- Using Slick Slider JS - CSS Slick Theme For Default Styling -->
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    integrity="sha384-3wRRg17hVCopINZVYCqnfbgXE7aFPSvawmLWNPSiUPVx+HxY+yxb5Cwp5mT7RXPD"
+    crossorigin="anonymous"/>
 
     <!-- Using Font Awesome - Bootstrap CDN -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-    <!-- Using jQuery -->
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
-
-    <!-- Using Slick Slider JS - JavaScript -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"    
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
 
     <!-- Own Styles Sheet -->
-    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" >
+
   </head>
   <body>
 
@@ -70,7 +85,14 @@
           </div>
         </nav>
       </header>
-      
+
+      <!-- Slick Slider Display -->
+      <div class="slick-display-index">
+        <div class="slick-display-content">Content 1</div>
+        <div class="slick-display-content">Content 2</div>
+        <div class="slick-display-content">Content 3</div>
+      </div>
+
       <div class="content">
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -83,23 +105,41 @@
 
     <footer>Szymon Janusz &copy; 2019</footer>
 
-    <!-- JavaScript responsible for animated navbar when scrolling -->
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $(".menu-icon").on("click", function() {
-          $("nav ul").toggleClass("showing");
-        });
-      });
+    <!-- Scripts should be loaded near bottom of body tag -->
+    <!-- https://stackoverflow.com/questions/10994335/javascript-head-body-or-jquery -->
 
-      $(window).on("scroll", function() {
-        if($(window).scrollTop()) {
-          $('nav').addClass('black');
-        }
-
-        else {
-          $('nav').removeClass('black');
-        }
-      })
+    <!-- Using jQuery -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
     </script>
+
+    <!-- Using jQuery Migrate -->
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    integrity="sha384-9tt8DlZQhE63eBuKml9tnMclfDeo/8/wstzUrBQStZZkCCvwfw78IiV+r9o600g2"
+    crossorigin="anonymous">      
+    </script>
+
+    <!-- Using Slick Slider JS - JavaScript -->
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    integrity="sha384-YGnnOBKslPJVs35GG0TtAZ4uO7BHpHlqJhs0XK3k6cuVb6EBtl+8xcvIIOKV5wB+"
+    crossorigin="anonymous">
+    </script>
+
+    <!-- Wasn't able to get integrity for local files to work -->
+    <!-- Tried using https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity to generate hashes -->
+    <!-- JavaScript responsible for animated navbar when scrolling -->
+    <script type="text/javascript"
+    src="./js/animated-navbar.js">
+    </script>
+
+    <!-- Testing out Slick Slide JS -->
+    <script type="text/javascript" src="./js/slick-slide-index.js"></script>
+
   </body>
 </html>

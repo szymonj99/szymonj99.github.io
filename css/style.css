@@ -174,3 +174,15 @@ nav ul li a:hover {
   width: 95%;
   padding-left: 2.5%;
 }
+
+
+.slick-display-index {
+  margin: auto;
+  width: 50%;
+  align-items: center;
+}
+
+.slick-display-content {
+  display: inline-block;
+  text-align: center;
+}
