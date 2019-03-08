@@ -14,3 +14,7 @@ Slick Slider JS - https://kenwheeler.github.io/slick/
 Subresource Integrity Hash Generator - https://www.srihash.org/
 Linking JavaScript files - https://www.w3schools.com/tags/att_script_src.asp
 Generating Integrity Hash for local files - https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
+CSS using z-index to sort out overlap - https://stackoverflow.com/questions/6354149/css-divs-overlapping-how-do-i-force-one-above-the-other
+Popular Coding Languages Picture - https://www.devsaran.com/blog/10-best-programming-languages-2015-you-should-know
+w3schools image - https://w3schools.com
+LightBot image - https://lightbot.com/

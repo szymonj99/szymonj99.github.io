@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"min-",
+				"min-height\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
 				"padd",
 				"padding-left\tproperty"
 			],
@@ -36,10 +68,6 @@
 				"text-align\tproperty"
 			],
 			[
-				"margin",
-				"margin-top\tproperty"
-			],
-			[
 				"mar",
 				"margin-top\tproperty"
 			],
@@ -50,10 +78,6 @@
 			[
 				"border",
 				"border-top\tproperty"
-			],
-			[
-				"al",
-				"align-content\tproperty"
 			],
 			[
 				"font",
@@ -75,7 +99,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4961,
+				"buffer_size": 6926,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 2908,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -85,15 +118,6 @@
 			"settings":
 			{
 				"buffer_size": 5348,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 2445,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -144,6 +168,9 @@
 	],
 	"file_history":
 	[
+		"/C/Programming/website/js/slick-slide-index.js",
+		"/C/Programming/website/js/animated-navbar.js",
+		"/C/Programming/website/test.js",
 		"/C/Users/Szymon/Desktop/style.css",
 		"/C/Users/Szymon/Desktop/index.html",
 		"/C/Users/Szymon/Desktop/ca/index.html",
@@ -193,7 +220,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -202,15 +229,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4961,
+						"buffer_size": 6926,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								743,
-								743
+								3041,
+								3041
 							]
 						],
 						"settings":
@@ -220,7 +247,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1296.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -228,6 +255,36 @@
 				},
 				{
 					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2485,
+								2485
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "games.html",
 					"semi_transient": false,
 					"settings":
@@ -250,40 +307,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1486.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2445,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2443,
-								2443
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 801.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]

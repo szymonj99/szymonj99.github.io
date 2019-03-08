@@ -175,7 +175,6 @@ nav ul li a:hover {
   padding-left: 2.5%;
 }
 
-
 .slick-display-index {
   margin: auto;
   width: 50%;
@@ -185,4 +184,23 @@ nav ul li a:hover {
 .slick-display-content {
   display: inline-block;
   text-align: center;
+}
+
+/* Change colour of background on Slick Slider arrows */
+.slick-prev:before {
+  color:black;
+}
+
+.slick-next:before {
+  color: black;
+}
+
+/* Showcase on Index */
+.slick-display-content img {
+  width: 90%;
+  height: 90%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
 }
