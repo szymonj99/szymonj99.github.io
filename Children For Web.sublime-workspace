@@ -108,7 +108,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 2908,
+				"buffer_size": 2921,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -134,6 +134,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
 			[
 				"packa",
 				"Package Control: Remove Package"
@@ -247,7 +251,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1296.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -259,15 +263,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2908,
+						"buffer_size": 2921,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2485,
-								2485
+								2055,
+								2055
 							]
 						],
 						"settings":
@@ -277,7 +281,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1426.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

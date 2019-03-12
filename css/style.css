@@ -31,6 +31,8 @@ footer {
   font-size: 20px;
   line-height: 30px;
   text-align: justify;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .entry-page {
@@ -55,6 +57,7 @@ nav {
   position: fixed;
   width: 100%;
   line-height: 60px;
+  z-index: 1;
 }
 
 nav ul {
@@ -76,7 +79,7 @@ nav.black ul {
 
 nav ul li {
   display: inline-block;
-  padding: 16px 40px;;
+  padding: 16px 16px;;
 }
 
 nav ul li a {
@@ -114,7 +117,7 @@ nav ul li a:hover {
   display: none;
 }
 
-@media(max-width: 786px) {
+@media(max-width: 768px) {
 
   .logo {
     position: fixed;
@@ -138,7 +141,7 @@ nav ul li a:hover {
   nav ul li {
     box-sizing: border-box;
     width: 100%;
-    padding: 24px;
+    padding: 8px;
     text-align: center;
   }
 
@@ -203,4 +206,25 @@ nav ul li a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
+}
+
+.games-list {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+/*.minecraft-embed {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}*/
+
+.games-heading h1 {
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
 }

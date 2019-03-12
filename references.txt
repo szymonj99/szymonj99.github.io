@@ -18,3 +18,5 @@ CSS using z-index to sort out overlap - https://stackoverflow.com/questions/6354
 Popular Coding Languages Picture - https://www.devsaran.com/blog/10-best-programming-languages-2015-you-should-know
 w3schools image - https://w3schools.com
 LightBot image - https://lightbot.com/
+Minecraft image - https://itunes.apple.com/us/app/minecraft/id479516143?mt=8
+Lightbot Thumbnail image - https://itunes.apple.com/us/app/lightbot-programming-puzzles/id924624572?mt=12
