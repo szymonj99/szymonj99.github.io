@@ -1,1 +1,2 @@
-# szymonj99.github.io
+# website
+This is a university project.

@@ -182,6 +182,7 @@ nav ul li a:hover {
   margin: auto;
   width: 50%;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .slick-display-content {
@@ -226,5 +227,38 @@ nav ul li a:hover {
 .games-heading h1 {
   font-weight: bold;
   font-size: 32px;
+  text-align: center;
+}
+
+.contactus-page {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/contactus.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.contactus-heading {
+  font-weight: bold;
+  padding: 0 0 0 0;
+  padding-top: 50vh;
+  margin: 0 0 0 0;
+  width: 100%;
+  display: inline-block;
+  font-size: 120px;
+  color: white;
+  vertical-align: middle;
+}
+
+.contactus-subheading {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  vertical-align: middle;
+}
+
+.wrapper {
   text-align: center;
 }
