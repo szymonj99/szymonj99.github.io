@@ -1,3 +1,3 @@
 @echo off
 cd mywebsite
-flutter build web
+flutter build web --web-renderer canvaskit
