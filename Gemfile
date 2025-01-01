@@ -39,3 +39,5 @@ gem "logger", "~> 1.6"
 gem "base64", "~> 0.2.0"
 
 gem "jekyll-theme-chirpy", "~> 7.2"
+
+gem "webrick", "~> 1.9"
